@@ -122,7 +122,7 @@ int main()
                         DrawTextureEx(cloud.texture, { cloud.x, cloud.y }, 0, 0.5, Fade(WHITE, 0.5f));
                         /*DrawRectangleLines(dino.x + 10, dino.y + 25, dino.width, dino.height, RED);
                         DrawRectangleLines(cactus.x, cactus.y, cactus.width, cactus.height, RED);
-                        DrawRectangleLines(heart.x, heart.y + 25, 125, 125, RED); проверка хитбокса*/
+                        DrawRectangleLines(heart.x, heart.y + 25, 125, 125, RED);               проверка хитбокса*/
                         EndDrawing();
                     }
                     gamestatus = true;
@@ -167,7 +167,7 @@ int main()
             }
             /*DrawRectangleLines(dino.x + 10, dino.y + 25, dino.width, dino.height, RED);
             DrawRectangleLines(cactus.x, cactus.y, cactus.width, cactus.height, RED);
-            DrawRectangleLines(heart.x, heart.y + 25, 125, 125, RED); проверка хитбокса
+            DrawRectangleLines(heart.x, heart.y + 25, 125, 125, RED);                   проверка хитбокса
             DrawRectangleLines(arrow.x, arrow.y + 25, 125, 125, RED);*/
             EndDrawing();
         }

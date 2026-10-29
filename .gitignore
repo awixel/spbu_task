@@ -1,0 +1,41 @@
+# Игнорируем пользовательские настройки Visual Studio
+*.user
+*.suo
+*.sln.docstates
+
+# Игнорируем папку .vs (все версии)
+.vs/
+.vsconfig
+
+# Игнорируем временные файлы IntelliSense
+*.ipch
+*.sdf
+*.opensdf
+*.opendb
+*.db
+*.db-shm
+*.db-wal
+*.db-journal
+
+# Игнорируем кэш расширений
+*.vsix
+*.vsixcache
+
+# Игнорируем скомпилированные файлы
+Debug/
+Release/
+*.exe
+*.dll
+*.pdb
+*.ilk
+*.obj
+*.lib
+*.exp
+
+# Игнорируем файлы отладки
+*.vcxproj.user
+*.filters.user
+
+# Игнорируем системные файлы
+Thumbs.db
+.DS_Store
